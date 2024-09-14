@@ -1,0 +1,3533 @@
+{
+  "TestLedsGameData": {
+    "GearEx": 5,
+    "FuelMax": 100.0,
+    "RPMSMax": 10000.0,
+    "TurboMax": 3.5,
+    "TurnIndicatorLeftEnabled": false,
+    "TurnIndicatorRightEnabled": false,
+    "SessionBestDeltaEx": -1.0,
+    "AllTimeBestDeltaEx": 0.0,
+    "DRSEnabled": false,
+    "DRSAvailable": false,
+    "MaxRpm": 10000.0,
+    "GameRunning": true,
+    "Brake": 0.0,
+    "GameName": null,
+    "Fuel": 0.0,
+    "RPMPercent": 45.166372171790414,
+    "RPMRedlineReached": false,
+    "SpeedKmh": 0.0,
+    "SpeedMph": 0.0,
+    "Turbo": 0.0,
+    "TurboPercent": 0.0,
+    "Gear": "5",
+    "IsInPitLane": false,
+    "PitLimiterOn": false,
+    "AbsEnabled": false,
+    "AbsActive": false,
+    "TCEnabled": false,
+    "TCActive": false,
+    "LowFuelAlert": false,
+    "SpotterCarLeft": false,
+    "SpotterCarRight": false,
+    "BlackFlag": false,
+    "YellowFlag": false,
+    "WhiteFlag": false,
+    "BlueFlag": true,
+    "GreenFlag": false,
+    "CarModel": "amr_v8_vantage_gt3",
+    "CarId": null,
+    "CarStartedTime": "2024-04-25T19:06:59.8894681+01:00",
+    "SessionBestDelta": 1.0,
+    "AllTimeBestDelta": 0.0
+  },
+  "LedContainers": [
+    {
+      "LedContainers": [
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": {},
+                "FrameDuration": 2000
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 500
+              }
+            ],
+            "PenColor": "Yellow"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "1aab3775-cffb-4d9b-bcc3-86e7f85f160f",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern",
+          "IsEnabled": true
+        },
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": {},
+                "FrameDuration": 2000
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 500
+              }
+            ],
+            "PenColor": "Yellow"
+          },
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "63bf508a-fc35-400f-84f5-710815204015",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern copy",
+          "IsEnabled": true
+        }
+      ],
+      "StartPositionMatrix": 1,
+      "StartPositionX": 1,
+      "StartPositionY": 1,
+      "ContainerId": "30d6a83b-a214-45b6-b81a-7ea2861fdae0",
+      "ContainerType": "GameNotRunningGroupContainer",
+      "Description": "Enable content if the game is not running",
+      "IsEnabled": true
+    },
+    {
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "FontName": "THICK8x8",
+          "Color": "White",
+          "RedlineColor": "Red",
+          "RedlineBlink": true,
+          "RedlineBlinkDelay": 100,
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "d45999f1-bc33-4519-8727-f1906dcb50b7",
+          "ContainerType": "GearContainer",
+          "Description": "Show current gear",
+          "IsEnabled": true
+        },
+        {
+          "FontName": "THICK8x8",
+          "Color": "White",
+          "RedlineColor": "Red",
+          "RedlineBlink": true,
+          "RedlineBlinkDelay": 100,
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "3e2d2ddc-6458-44bb-b550-08ab6362b56a",
+          "ContainerType": "GearContainer",
+          "Description": "Show current gear copy",
+          "IsEnabled": true
+        },
+        {
+          "FlagSettings": [
+            {
+              "Name": "Yellow",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      }
+                    },
+                    "FrameDuration": 150
+                  },
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      }
+                    },
+                    "FrameDuration": 150
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Black",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      }
+                    },
+                    "FrameDuration": 300
+                  },
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      }
+                    },
+                    "FrameDuration": 300
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Blue",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      }
+                    },
+                    "FrameDuration": 800
+                  },
+                  {
+                    "Colors": {},
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "White",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      }
+                    },
+                    "FrameDuration": 800
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Green",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      }
+                    },
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            }
+          ],
+          "EnableYellowAnimation": true,
+          "EnableBlackAnimation": true,
+          "EnableBlueAnimation": true,
+          "EnableWhiteAnimation": true,
+          "EnableGreenAnimation": true,
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "61854a17-8cd8-4ed8-8edd-01c1d0b4d03a",
+          "ContainerType": "FlagsContainer",
+          "Description": "Show flags animation",
+          "IsEnabled": true
+        },
+        {
+          "FlagSettings": [
+            {
+              "Name": "Yellow",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      }
+                    },
+                    "FrameDuration": 150
+                  },
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      }
+                    },
+                    "FrameDuration": 150
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Black",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      }
+                    },
+                    "FrameDuration": 300
+                  },
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "Color": "Black"
+                        }
+                      }
+                    },
+                    "FrameDuration": 300
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Blue",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Yellow"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Yellow"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Yellow"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Blue"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Yellow"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Blue"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Yellow"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Yellow"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Yellow"
+                        },
+                        "1": {
+                          "Color": "Yellow"
+                        },
+                        "2": {
+                          "Color": "Blue"
+                        },
+                        "3": {
+                          "Color": "Blue"
+                        },
+                        "4": {
+                          "Color": "Blue"
+                        },
+                        "5": {
+                          "Color": "Blue"
+                        },
+                        "6": {
+                          "Color": "Blue"
+                        },
+                        "7": {
+                          "Color": "Blue"
+                        }
+                      }
+                    },
+                    "FrameDuration": 800
+                  },
+                  {
+                    "Colors": {},
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "White",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "White"
+                        },
+                        "1": {
+                          "Color": "White"
+                        },
+                        "2": {
+                          "Color": "White"
+                        },
+                        "3": {
+                          "Color": "White"
+                        },
+                        "4": {
+                          "Color": "White"
+                        },
+                        "5": {
+                          "Color": "White"
+                        },
+                        "6": {
+                          "Color": "White"
+                        },
+                        "7": {
+                          "Color": "White"
+                        }
+                      }
+                    },
+                    "FrameDuration": 800
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Green",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "Color": "Green"
+                        },
+                        "1": {
+                          "Color": "Green"
+                        },
+                        "2": {
+                          "Color": "Green"
+                        },
+                        "3": {
+                          "Color": "Green"
+                        },
+                        "4": {
+                          "Color": "Green"
+                        },
+                        "5": {
+                          "Color": "Green"
+                        },
+                        "6": {
+                          "Color": "Green"
+                        },
+                        "7": {
+                          "Color": "Green"
+                        }
+                      }
+                    },
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            }
+          ],
+          "EnableYellowAnimation": true,
+          "EnableBlackAnimation": true,
+          "EnableBlueAnimation": true,
+          "EnableWhiteAnimation": true,
+          "EnableGreenAnimation": true,
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "3abd21e9-9960-48d9-a0d2-50be18ec408c",
+          "ContainerType": "FlagsContainer",
+          "Description": "Show flags animation copy",
+          "IsEnabled": true
+        },
+        {
+          "SpotterStyle": 3,
+          "ClearBackgroundWhenActive": true,
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "1bd714ba-8d56-46fc-9e51-e6818fe35e3c",
+          "ContainerType": "SpotterContainer",
+          "Description": "Show spotter overlay",
+          "IsEnabled": true
+        },
+        {
+          "SpotterStyle": 4,
+          "ClearBackgroundWhenActive": true,
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "0ddffe6e-5341-4436-bc90-8da23212a89a",
+          "ContainerType": "SpotterContainer",
+          "Description": "Show spotter overlay copy",
+          "IsEnabled": true
+        }
+      ],
+      "StartPositionMatrix": 1,
+      "StartPositionX": 1,
+      "StartPositionY": 1,
+      "ContainerId": "b248a9a5-761a-48c1-a915-77e72c19d9c2",
+      "ContainerType": "GameRunningGroupContainer",
+      "Description": "Enable content if the game is running",
+      "IsEnabled": true
+    },
+    {
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": {},
+                "FrameDuration": 250
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 250
+              }
+            ],
+            "PenColor": "Red"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "d39e8ba2-0c7a-4284-aa23-6eb092c87067",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern",
+          "IsEnabled": true
+        },
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": {},
+                "FrameDuration": 250
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 250
+              }
+            ],
+            "PenColor": "Red"
+          },
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "202c4711-21aa-4dd4-b918-d3ac1f6dea25",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern copy",
+          "IsEnabled": true
+        }
+      ],
+      "StartPositionMatrix": 1,
+      "StartPositionX": 1,
+      "StartPositionY": 1,
+      "ContainerId": "d757976c-7bd9-4042-a3e9-8893709dbd79",
+      "ContainerType": "GameCarSpeedLimiterGroupContainer",
+      "Description": "Enable content when car speed limiter is ON",
+      "IsEnabled": true
+    },
+    {
+      "Duration": 1590,
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 140
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 130
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 120
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 110
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 100
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 90
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 80
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 70
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 60
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 50
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 40
+              }
+            ],
+            "PenColor": "Green"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "d7b66e51-387a-49b1-adb9-3b7938e3538e",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern",
+          "IsEnabled": true
+        },
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 150
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 140
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 130
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 120
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 110
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 100
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 90
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 80
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 70
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 60
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 50
+              },
+              {
+                "Colors": {},
+                "FrameDuration": 40
+              }
+            ],
+            "PenColor": "Green"
+          },
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "1d30c41b-06e1-4acb-923a-cba55341f236",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern copy",
+          "IsEnabled": true
+        }
+      ],
+      "StartPositionMatrix": 1,
+      "StartPositionX": 1,
+      "StartPositionY": 1,
+      "ContainerId": "6da1e897-4301-48fb-9919-77d4b9b6dd0d",
+      "ContainerType": "GameCarStatedGroupContainer",
+      "Description": "Enable content for a defined time after the car is started",
+      "IsEnabled": true
+    }
+  ],
+  "GlobalBrightness": 50.0,
+  "UseProfileBrightness": false,
+  "DeviceKind": 0,
+  "LastLoaded": "2024-09-06T15:45:31.1124963+01:00",
+  "Description": "MOSAIC3D 8x8 Matrix Display (Dual) SimHub Profile",
+  "Name": "MOSAIC3D 8x8 Matrix Display (Dual) SimHub Profile",
+  "ProfileId": "b7727337-7099-4d2e-a0b1-19e624c5bb5c",
+  "GameCode": null
+}
